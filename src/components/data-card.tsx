@@ -9,7 +9,7 @@ import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
-interface ResumeCardProps {
+interface DataCardProps {
   logoUrl: string;
   altText: string;
   title: string;
@@ -19,7 +19,7 @@ interface ResumeCardProps {
   period: string;
   description?: string;
 }
-export const ResumeCard = ({
+export const DataCard = ({
   logoUrl,
   altText,
   title,
@@ -28,7 +28,7 @@ export const ResumeCard = ({
   badges,
   period,
   description,
-}: ResumeCardProps) => {
+}: DataCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -108,3 +108,5 @@ export const ResumeCard = ({
     </Link>
   );
 };
+
+

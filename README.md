@@ -8,7 +8,7 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 
 # Features
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
+- Setup only takes a few minutes by editing the [single config file](./src/data/data.tsx)
 - Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
 - Includes a blog
 - Responsive for different devices
@@ -40,7 +40,7 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
    pnpm dev
    ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+5. Open the [Config file](./src/data/data.tsx) and make changes
 
 # Deploying Using Docker
 

@@ -2,10 +2,10 @@ import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
-import { ResumeCard } from "@/components/resume-card";
+import { DataCard } from "@/components/data-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { DATA } from "@/data/resume";
+import { DATA } from "@/data/data";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -59,7 +59,7 @@ export default function Page() {
               key={work.company}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
             >
-              <ResumeCard
+              <DataCard
                 key={work.company}
                 logoUrl={work.logoUrl}
                 altText={work.company}
@@ -84,7 +84,7 @@ export default function Page() {
               key={education.school}
               delay={BLUR_FADE_DELAY * 8 + id * 0.05}
             >
-              <ResumeCard
+              <DataCard
                 key={education.school}
                 href={education.href}
                 logoUrl={education.logoUrl}
