@@ -29,7 +29,11 @@ const BlurFade = ({
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef(null);
-  const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
+  // `useInView` expects a more specific margin type than `string`; cast here to satisfy TS
+  const inViewResult = useInView(ref, {
+    once: true,
+    margin: inViewMargin as any,
+  });
   const isInView = !inView || inViewResult;
   const defaultVariants: Variants = {
     hidden: { y: yOffset, opacity: 0, filter: `blur(${blur})` },
