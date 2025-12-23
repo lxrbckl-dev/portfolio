@@ -59,7 +59,7 @@ docker run -d \
   --name portfolio \
   --restart unless-stopped \
   -p 8046:8080 \
-  lxrbckl/portfolio:latest
+  lxrbckl/portfolio:sawyer-showalter-business
 ```
 
 # License
