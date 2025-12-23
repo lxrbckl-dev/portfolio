@@ -58,6 +58,7 @@ docker run --name portfolio-app \
 docker run -d \
   --name portfolio \
   --restart unless-stopped \
+  -p 8047:8080 \
   lxrbckl/portfolio:latest
 ```
 
