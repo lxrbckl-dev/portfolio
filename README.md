@@ -42,7 +42,7 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 
 5. Open the [Config file](./src/data/data.tsx) and make changes
 
-# Deploying Using Docker
+# Local Deployment
 
 ```bash
 docker build -t portfolio-app .
@@ -50,6 +50,15 @@ docker run --name portfolio-app \
   -p 8010:8080 \
   -v <host-data-path>:/app/src/data \
   portfolio-app
+```
+
+# Server Deployment
+
+```bash
+docker run -d \
+  --name portfolio \
+  --restart unless-stopped \
+  lxrbckl/portfolio:latest
 ```
 
 # License

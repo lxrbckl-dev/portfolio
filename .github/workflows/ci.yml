@@ -34,5 +34,5 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/portfolio:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/portfolio:${{ github.ref_name }}
             ${{ secrets.DOCKERHUB_USERNAME }}/portfolio:${{ github.sha }}
