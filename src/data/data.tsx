@@ -3,7 +3,7 @@ import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Jordyn Barger",
-  initials: "DV",
+  initials: "JB",
   url: "https://dillion.io",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",

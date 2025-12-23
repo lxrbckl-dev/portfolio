@@ -45,8 +45,8 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 # Local Deployment
 
 ```bash
-docker build -t portfolio-app .
-docker run --name portfolio-app \   
+docker build -t jbarger-app .
+docker run --name jbarger-app \   
   -p 8010:8080 \
   jbarger-app
 ```
