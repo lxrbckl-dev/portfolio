@@ -45,18 +45,18 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 # Local Deployment
 
 ```bash
-docker build -t portfolio-app .
-docker run --name portfolio-app \   
+docker build -t sawyer-showalter-business .
+docker run --name sawyer-showalter-business \   
   -p 8010:8080 \
   -v <host-data-path>:/app/src/data \
-  portfolio-app
+  sawyer-showalter-business
 ```
 
 # Server Deployment
 
 ```bash
 docker run -d \
-  --name portfolio \
+  --name sawyer-showalter-business \
   --restart unless-stopped \
   -p 8046:8080 \
   lxrbckl/portfolio:sawyer-showalter-business
