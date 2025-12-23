@@ -4,7 +4,7 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Sawyer Showalter",
   initials: "SS",
-  url: "https://dillion.io",
+  url: "https://sawyer.showalter.business",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
