@@ -1,5 +1,5 @@
 # portfolio
-> A forked portfolio website, containerized to work on a local server.
+> A forked portfolio website, containerized to work on a local server with pipelines.
 
 ---
 
