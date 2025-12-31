@@ -29,4 +29,4 @@ docker run -d \
 
 ---
 
-[`dillionverma/portfolio`](https://github.com/dillionverma/portfolio) [`DockerHub`](https://hub.docker.com/r/lxrbckl/portfolio)
+[`dillionverma/portfolio`](https://github.com/dillionverma/portfolio) [`Docker Hub`](https://hub.docker.com/r/lxrbckl/portfolio)
