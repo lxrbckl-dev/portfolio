@@ -1,3 +1,8 @@
+# portfolio
+> A forked portfolio website, containerized to work on a local server with pipelines.
+
+---
+
 ### Local Development
 ```bash
 pnpm install
@@ -21,3 +26,7 @@ docker run -d \
   --restart unless-stopped \
   lxrbckl/portfolio:latest
 ```
+
+---
+
+[`dillionverma/portfolio`](https://github.com/dillionverma/portfolio) [`DockerHub`](https://hub.docker.com/r/lxrbckl/portfolio)
