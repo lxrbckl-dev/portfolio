@@ -1,5 +1,7 @@
 # portfolio
 > A forked portfolio website, containerized to work on a local server with pipelines.
+>
+> **`TypeScript`** **`Docker`** **`CSS`** `next-js` `tailwind` `radix-ui` `github-actions`
 
 ---
 
