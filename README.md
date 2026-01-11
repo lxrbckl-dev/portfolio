@@ -25,8 +25,9 @@ docker run --name portfolio-app \
 ```bash
 docker run -d \
   --name portfolio \
+  -p 8046:8080 \
   --restart unless-stopped \
-  lxrbckl/portfolio:latest
+  lxrbckl/portfolio:sawyer-showalter-business
 ```
 
 ---
