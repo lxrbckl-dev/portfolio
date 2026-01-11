@@ -25,8 +25,9 @@ docker run --name portfolio-app \
 ```bash
 docker run -d \
   --name portfolio \
+  -p 8047:8080 \
   --restart unless-stopped \
-  lxrbckl/portfolio:latest
+  lxrbckl/portfolio:jbarger-app
 ```
 
 ---
