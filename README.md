@@ -24,9 +24,8 @@ docker run --name portfolio-app \
 ### Server Deployment
 ```bash
 docker run -d \
-  --name portfolio \
-  -p 8049:8080 \
   --name msymmonds-app \
+  -p 8049:8080 \
   --restart unless-stopped \
   lxrbckl/portfolio:msymmonds-app
 ```
