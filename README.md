@@ -24,7 +24,7 @@ docker run --name portfolio-app \
 ### Server Deployment
 ```bash
 docker run -d \
-  --name portfolio \
+  --name sawyer-showalter-business \
   -p 8046:8080 \
   --restart unless-stopped \
   lxrbckl/portfolio:sawyer-showalter-business
