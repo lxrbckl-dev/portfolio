@@ -27,7 +27,7 @@ docker run -d \
   --name portfolio \
   -p <your-port>:8080 \
   --restart unless-stopped \
-  lxrbckl/portfolio:msymmonds-app
+  lxrbckl/portfolio:main
 ```
 
 ---
