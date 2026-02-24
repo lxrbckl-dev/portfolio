@@ -27,19 +27,19 @@ export const DATA = {
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "jbarger131@gmail.com",
+    email: "jordynbarger@proton.me",
     tel: "+18166176855",
     social: {
       LinkedIn: {
         name: "LinkedIn",
-        url: "#",
+        url: "https://www.linkedin.com/in/jordynbarger",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:jbarger131@gmail.com",
+        url: "mailto:jordynbarger@proton.me",
         icon: Icons.email,
 
         navbar: true,
