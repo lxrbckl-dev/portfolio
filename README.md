@@ -7,6 +7,7 @@
 
 ### Local Development
 ```bash
+npm install -g pnpm
 pnpm install
 pnpm dev
 # makes changes in ./src/data/data.tsx
