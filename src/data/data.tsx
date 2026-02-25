@@ -10,8 +10,8 @@ export const DATA = {
   description:
     "Earning two Bachelor's degrees in Economics and Mathematics, graduating Summa Cum Laude from William Jewell College.",
   summary:
-    "I'm completing two separate [Bachelor's degrees at William Jewell College](/#education) — a B.A. in Economics (Spring 2026) and a B.A. in Mathematics (Fall 2026) — and am poised to graduate Summa Cum Laude. My advanced coursework spans econometrics, financial economics, abstract algebra, differential equations, and calculus, equipping me with a rigorous analytical foundation across both disciplines. I was recognized as a [John W. Boatwright Scholar](/#awards) for outstanding academic achievement and scholarly excellence in economics, and have maintained Dean's List standing every semester throughout my college career.",
-  avatarUrl: "/me.png",
+    "I'm completing two separate [Bachelor's degrees at William Jewell College](/#education) — a B.A. in Economics (Spring 2026) and a B.A. in Mathematics (Fall 2026) — and am poised to graduate Summa Cum Laude. My advanced coursework spans econometrics, abstract algebra, differential equations, and calculus, equipping me with a rigorous analytical foundation across both disciplines. I was recognized as a [John W. Boatwright Scholar](/#awards) for outstanding academic achievement and scholarly excellence in economics, and have maintained Dean's List standing every semester throughout my college career.",
+  avatarUrl: "https://immich.lxrbckl.com/api/assets/629ed388-ffd2-4ffd-a4a7-21f77391eaa2/thumbnail?slug=jordynBarger&size=preview&c=aRcOHoD4Z2h9c4iHeHiHmHeHCnZnoQg%3D&edited=true",
   skills: [
     "Critical Thinking",
     "Problem Solving",
