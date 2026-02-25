@@ -1,5 +1,5 @@
 # portfolio
-> A forked portfolio website, containerized to work on a local server with pipelines. Fall 2025.
+> A forked portfolio website, containerized to work on a local server with pipelines.
 >
 > **`TypeScript`** **`Docker`** **`CSS`** `next-js` `tailwind` `radix-ui` `github-actions`
 
@@ -7,7 +7,6 @@
 
 ### Local Development
 ```bash
-npm install -g pnpm
 pnpm install
 pnpm dev
 # makes changes in ./src/data/data.tsx
@@ -25,10 +24,10 @@ docker run --name portfolio-app \
 ### Server Deployment
 ```bash
 docker run -d \
-  --name portfolio \
-  -p <your-port>:8080 \
+  --name jbarger-app \
+  -p 8047:8080 \
   --restart unless-stopped \
-  lxrbckl/portfolio:main
+  lxrbckl/portfolio:jbarger-app
 ```
 
 ---
