@@ -20,10 +20,7 @@ export const DATA = {
     "Risk Assessment",
     "Econometrics",
     "Leadership",
-    "Communication",
-    "Microsoft Excel",
-    "Microsoft Word",
-    "Microsoft PowerPoint",
+    "Communication"
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
