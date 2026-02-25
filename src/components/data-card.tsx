@@ -100,7 +100,7 @@ export const DataCard = ({
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mt-2 text-xs sm:text-sm"
+              className="mt-2 text-xs sm:text-sm text-justify"
             >
               {description}
             </motion.div>

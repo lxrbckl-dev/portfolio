@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Earning two Bachelor's degrees in Economics and Mathematics, graduating Summa Cum Laude from William Jewell College.",
   summary:
-    "I'm completing two separate [Bachelor's degrees at William Jewell College](/#education) — a B.A. in Economics (Spring 2026) and a B.A. in Mathematics (Fall 2026) — and am poised to graduate Summa Cum Laude. My advanced coursework spans econometrics, abstract algebra, differential equations, and calculus, equipping me with a rigorous analytical foundation across both disciplines. I was recognized as a [John W. Boatwright Scholar](/#awards) for outstanding academic achievement and scholarly excellence in economics, and have maintained Dean's List standing every semester throughout my college career.",
+    "I'm completing two separate [Bachelor's degrees at William Jewell College](/#education) — a B.A. in Economics (Spring 2026) and a B.A. in Mathematics (Fall 2026) — and am poised to graduate **Summa Cum Laude**. My advanced coursework spans econometrics, abstract algebra, differential equations, and calculus, equipping me with a rigorous analytical foundation across both disciplines. I was recognized as a [John W. Boatwright Scholar](/#awards) for outstanding academic achievement and scholarly excellence in economics, and have maintained Dean's List standing every semester throughout my college career.",
   avatarUrl: "https://immich.lxrbckl.com/api/assets/629ed388-ffd2-4ffd-a4a7-21f77391eaa2/thumbnail?slug=jordynBarger&size=preview&c=aRcOHoD4Z2h9c4iHeHiHmHeHCnZnoQg%3D&edited=true",
   skills: [
     "Critical Thinking",
@@ -58,7 +58,7 @@ export const DATA = {
       start: "October 2024",
       end: "Present",
       description:
-        "Providing exceptional customer service in a high-volume environment while training new team members on operational standards. Managing inventory tracking, cash handling, and order fulfillment with strong attention to accuracy and detail. Monitoring sales patterns to optimize workflow during peak periods.",
+        "Deliver high-quality customer experiences in a fast-paced, high-volume setting while onboarding and mentoring new team members on company standards and best practices. Oversee inventory management, cash handling, and order accuracy. Analyze sales trends to streamline operations and improve efficiency during peak service windows.",
     },
     {
       company: "Ten & Two Coffee",
@@ -70,7 +70,7 @@ export const DATA = {
       start: "October 2023",
       end: "October 2024",
       description:
-        "Performed assistant manager duties including staff training, scheduling, and daily operations oversight. Managed coffee and bar service while handling opening/closing procedures, inventory management, and cash reconciliation. Trained new hires on service standards and workflow efficiency. Demonstrated strong leadership and independent decision-making in management's absence.",
+        "Assumed assistant manager responsibilities encompassing staff training, shift scheduling, and daily operational oversight. Directed both coffee and bar service operations while managing opening and closing procedures, inventory control, and end-of-day cash reconciliation. Developed and led onboarding programs for new hires focused on service excellence and workflow optimization. Exercised independent leadership and sound decision-making during management absences.",
     },
     {
       company: "Muffin Top Bakery",
@@ -82,7 +82,7 @@ export const DATA = {
       start: "November 2022",
       end: "October 2023",
       description:
-        "Prepared baked goods following precise recipes and measurements, ensuring consistent quality and adherence to food safety standards. Assisted customers with product selections and special orders while managing time-sensitive production schedules and inventory.",
+        "Executed daily production of baked goods with strict adherence to recipes, portioning standards, and food safety protocols, ensuring consistent product quality. Provided attentive customer service including product recommendations and custom order coordination. Managed time-sensitive production schedules and inventory levels to minimize waste and meet demand.",
     },
   ],
   education: [
