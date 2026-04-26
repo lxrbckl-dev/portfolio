@@ -1,9 +1,12 @@
+"use client";
+
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { DataCard } from "@/components/data-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/data";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -16,12 +19,19 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
-              />
+              <BlurFade delay={BLUR_FADE_DELAY} yOffset={8}>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                  Hi, I&apos;m{" "}
+                  <motion.span
+                    initial={{ color: "#000000" }}
+                    animate={{ color: "#A6192E" }}
+                    transition={{ delay: 1.0, duration: 4.0, ease: "easeInOut" }}
+                  >
+                    {DATA.name.split(" ")[0]}
+                  </motion.span>{" "}
+                  👋
+                </h1>
+              </BlurFade>
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
@@ -100,10 +110,32 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Awards & Distinctions</h2>
           </BlurFade>
-          {DATA.awards.map((award, id) => (
+          <BlurFade delay={BLUR_FADE_DELAY * 10}>
+            <h3 className="text-base font-semibold text-muted-foreground">Education</h3>
+          </BlurFade>
+          {DATA.awardsEducation.map((award, id) => (
             <BlurFade
               key={award.title}
               delay={BLUR_FADE_DELAY * 10 + id * 0.05}
+            >
+              <DataCard
+                key={award.title}
+                logoUrl={award.logoUrl}
+                altText={award.title}
+                title={award.title}
+                subtitle={award.awarder}
+                period={award.date}
+                description={award.description}
+              />
+            </BlurFade>
+          ))}
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <h3 className="text-base font-semibold text-muted-foreground">Work</h3>
+          </BlurFade>
+          {DATA.awardsWork.map((award, id) => (
+            <BlurFade
+              key={award.title}
+              delay={BLUR_FADE_DELAY * 11 + id * 0.05}
             >
               <DataCard
                 key={award.title}
@@ -136,9 +168,6 @@ export default function Page() {
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>

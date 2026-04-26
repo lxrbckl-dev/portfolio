@@ -11,7 +11,7 @@ export const DATA = {
     "Earning two Bachelor's degrees in Economics and Mathematics, graduating Summa Cum Laude from William Jewell College.",
   summary:
     "I'm completing two separate [Bachelor's degrees at William Jewell College](/#education) — a B.A. in Economics (Spring 2026) and a B.A. in Mathematics (Fall 2026) — and am poised to graduate **Summa Cum Laude**. My advanced coursework spans econometrics, abstract algebra, differential equations, and calculus, equipping me with a rigorous analytical foundation across both disciplines. I was recognized as a [John W. Boatwright Scholar](/#awards) for outstanding academic achievement and scholarly excellence in economics, and have maintained Dean's List standing every semester throughout my college career.",
-  avatarUrl: "https://immich.lxrbckl.com/api/assets/629ed388-ffd2-4ffd-a4a7-21f77391eaa2/thumbnail?slug=jordynBarger&size=preview&c=aRcOHoD4Z2h9c4iHeHiHmHeHCnZnoQg%3D&edited=true",
+  avatarUrl: "https://immich.lxrbckl.com/api/assets/85644a4a-1388-49cc-bbad-575e6a6c63b2/thumbnail?slug=jordynBarger&size=preview&c=YSgSFwLoh2h%2FdYWFh3hnl4d3iXA4CXsA&edited=true",
   skills: [
     "Critical Thinking",
     "Problem Solving",
@@ -86,7 +86,7 @@ export const DATA = {
     {
       school: "William Jewell College",
       href: "https://www.jewell.edu",
-      degree: "Bachelor of Arts — Mathematics and Economics",
+      degree: "Bachelor of Arts — Mathematics & Economics",
       logoUrl: "https://immich.lxrbckl.com/api/assets/decaed76-a4fd-45cd-ae6d-13c98d892574/thumbnail?slug=jordynBarger&size=preview&c=XEgSFQxXZ3l4B4hYeISIqGeDcDYI&edited=true",
       start: "August 2024",
       end: "Present",
@@ -100,7 +100,25 @@ export const DATA = {
       end: "May 2024",
     },
   ],
-  awards: [
+  awardsWork: [
+    {
+      title: "Partner of the Quarter",
+      date: "April 2026",
+      awarder: "Starbucks",
+      logoUrl: "https://immich.lxrbckl.com/api/assets/83fef72e-74b9-41e2-86d4-1dc697460fd8/thumbnail?slug=jordynBarger&size=preview&c=6acNBwKn93h0eYiMi2eImJiIigv3t3EP&edited=true",
+      description:
+        "Selected as Partner of the Quarter at my Starbucks store, an internal recognition for partners who consistently bring the company's Mission and Values to life. Recognized for reliability, mentoring fellow partners, and stepping up to cover shifts during periods of high store need while balancing a full academic course load.",
+    },
+  ],
+  awardsEducation: [
+    {
+      title: "Economics Faculty Award",
+      date: "April 2026",
+      awarder: "William Jewell College",
+      logoUrl: "https://immich.lxrbckl.com/api/assets/decaed76-a4fd-45cd-ae6d-13c98d892574/thumbnail?slug=jordynBarger&size=preview&c=XEgSFQxXZ3l4B4hYeISIqGeDcDYI&edited=true",
+      description:
+        "Presented annually by the economics faculty at William Jewell College's Celebration of Honors to recognize the outstanding graduating senior in economics. Selected from the senior class of the Department of Business, Accounting, and Economics.",
+    },
     {
       title: "John W. Boatwright Scholar",
       date: "April 2025",
