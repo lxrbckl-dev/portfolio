@@ -44,7 +44,6 @@ To update an already-running container:
 ```bash
 docker pull lxrbckl/portfolio:jbarger-app
 docker stop jbarger-app && docker rm jbarger-app
-# re-run the `docker run` command above
 ```
 
 ---
