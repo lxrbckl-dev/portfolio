@@ -22,12 +22,29 @@ docker run --name portfolio-app \
 ```
 
 ### Server Deployment
+
+The `lxrbckl/portfolio:jbarger-app` image is built and pushed to Docker Hub automatically on every commit to `main` by the [`dockerhub-build-push`](.github/workflows/dockerhub-build-push.yml) GitHub Actions workflow.
+
 ```bash
+# Pull the latest image
+docker pull lxrbckl/portfolio:jbarger-app
+
+# Run it detached, with auto-restart, on host port 8047
 docker run -d \
   --name jbarger-app \
   -p 8047:8080 \
   --restart unless-stopped \
   lxrbckl/portfolio:jbarger-app
+```
+
+Once the container is up, the site is reachable at `http://<host>:8047`.
+
+To update an already-running container:
+
+```bash
+docker pull lxrbckl/portfolio:jbarger-app
+docker stop jbarger-app && docker rm jbarger-app
+# re-run the `docker run` command above
 ```
 
 ---
