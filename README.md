@@ -14,27 +14,27 @@ pnpm dev
 
 ### Local Deployment
 ```bash
-docker build -t portfolio-app .
-docker run --name portfolio-app \   
+docker build -t project-jordyn .
+docker run --name project-jordyn \
   -p 8010:8080 \
   -v <host-data-path>:/app/src/data \
-  portfolio-app
+  project-jordyn
 ```
 
 ### Server Deployment
 
-The `lxrbckl/portfolio:jbarger-app` image is built and pushed to Docker Hub automatically on every commit to `main` by the [`dockerhub-build-push`](.github/workflows/dockerhub-build-push.yml) GitHub Actions workflow.
+The `lxrbckl/project-jordyn` image is built and pushed to Docker Hub automatically on every commit to `main` by the [`dockerhub-build-push`](.github/workflows/dockerhub-build-push.yml) GitHub Actions workflow.
 
 ```bash
 # Pull the latest image
-docker pull lxrbckl/portfolio:jbarger-app
+docker pull lxrbckl/project-jordyn
 
 # Run it detached, with auto-restart, on host port 8047
 docker run -d \
-  --name jbarger-app \
+  --name project-jordyn \
   -p 8047:8080 \
   --restart unless-stopped \
-  lxrbckl/portfolio:jbarger-app
+  lxrbckl/project-jordyn
 ```
 
 Once the container is up, the site is reachable at `http://<host>:8047`.
@@ -42,10 +42,10 @@ Once the container is up, the site is reachable at `http://<host>:8047`.
 To update an already-running container:
 
 ```bash
-docker pull lxrbckl/portfolio:jbarger-app
-docker stop jbarger-app && docker rm jbarger-app
+docker pull lxrbckl/project-jordyn
+docker stop project-jordyn && docker rm project-jordyn
 ```
 
 ---
 
-[`dillionverma/portfolio`](https://github.com/dillionverma/portfolio) [`Docker Hub`](https://hub.docker.com/r/lxrbckl/portfolio)
+[`dillionverma/portfolio`](https://github.com/dillionverma/portfolio) [`Docker Hub`](https://hub.docker.com/r/lxrbckl/project-jordyn)
